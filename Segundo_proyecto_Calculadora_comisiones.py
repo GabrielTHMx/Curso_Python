@@ -1,0 +1,6 @@
+print("\t\t'COMMISSIONS CALCULATOR'")
+name = input("Enter your name: ")
+sales = input("Enter your sales: $ ")
+sales = float(sales)
+commission = round(sales*13/100, 2)
+print(f"{name} your commission is: $ {commission}")
